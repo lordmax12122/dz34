@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { nanoid } from '@reduxjs/toolkit';
-import { addContact } from '../../redux/operations';
+import { addContact } from '../redux/operations';
 
 export const ContactForm = () => {
   const dispatch = useDispatch();

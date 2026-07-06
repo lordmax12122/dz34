@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteContact } from '../../redux/operations';
-import { selectIsLoading } from '../../redux/selectors';
+import { deleteContact } from '../redux/operations';
+import { selectIsLoading } from '../redux/selectors';
 
 export const Contact = ({ contact: { id, name, phone } }) => {
   const dispatch = useDispatch();
